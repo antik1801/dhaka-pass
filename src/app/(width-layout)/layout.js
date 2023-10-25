@@ -5,6 +5,7 @@ import DefaultNavbar from "@/components/navbar/DefaultNavbar";
 
 import { Poppins } from 'next/font/google'
 import Container from "@/components/container/Container";
+import PageFooter from "@/components/footer/Footer";
 
 const poppins = Poppins({
     weight: '500',
@@ -25,6 +26,9 @@ const MainLayout = ({ children }) => {
           <DefaultNavbar />{" "}
         </Container>
         <div>{children}</div>
+        <div className="bg-[#ECE4E4]">
+        <PageFooter />
+        </div>
       </div>
     </div>
   );

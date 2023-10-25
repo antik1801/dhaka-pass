@@ -9,12 +9,12 @@ const KnowMore = () => {
         <div className="w-full">
           <p
             style={{ fontFamily: "YourFont" }}
-            className="text-3xl lg:text-5xl"
+            className="text-3xl lg:text-5xl lg:text-left text-center"
           >
             {" "}
             Know More About DHAKA PASS
           </p>
-          <p className="mt-12">
+          <p className="mt-12 text-center lg:text-left">
             DHAKA PASS is your go-to platform for all your ticketing needs in
             Bangladesh . We are a trusted ticketing company that offers a wide
             range of services to help you manage and sell tickets for concerts,
@@ -26,7 +26,7 @@ const KnowMore = () => {
             with a range of payment options and instant delivery of tickets.
           </p>
         </div>
-        <div className="hidden lg:block w-full">
+        <div className=" w-full">
           <Image src={"/rec.png"} width={611} height={566} />
         </div>
       </div>
